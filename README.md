@@ -1,3 +1,3 @@
 # Spring-Boot-Mizuki
 
- <img src="http://seoconsultant.sakura.ne.jp/shuto/data/fig/bingo-start.png" width="360px">
+ <img src="https://github.com/shutokawabata0723/Spring-Boot-Mizuki/blob/master/Casino.gif" width="700px">
