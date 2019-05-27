@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8" />
+    <title>demo2</title>
+</head>
+<body bgcolor="black">
+<p>
+    <!--<label th:text="${msg}"></label>-->
+<center><font color="gold" face="Comic Sans MS" size="7"><b>Welcome to Casino!!</b></font></center>
+<center><font color="white" face="Comic Sans MS" size="5"><b>あなたの現在の所持金：¥20000</b></font></center>
+
+    <marquee style="position:absolute; top:250px; left:;">
+        <font color="white" face="Comic Sans MS" size="5">
+            (๑╹ω╹๑ )<b><label th:text="${msg}"></label></b>さん！カジノゲームへようこそ！このゲームは<b>奇数</b>か<b>偶数</b>のどちらかに賭けを行って所持金を増やしていくゲームです．まずは¥100000を目指しましょう！
+        </font>
+    </marquee>
+
+    <marquee style="position:absolute; top:750px; left:;">
+        <font color="lightgreen" face="Comic Sans MS">
+            Developed by <b>Shuto Kawabata</b>. All rights reserved <a href="https://github.com/shutokawabata0723" target="_blank"><b>on Github</b></a>
+        </font>
+    </marquee>
+</p>
+
+<!--<form action="#" th:action="@{/confirm}" method="GET">-->
+<p>
+<form action="start" method="post">
+    <center><button name="button" style="width=200px;height=100px">ゲームを始める</button></center>
+</form>
+</p>
+</body>
+</html>

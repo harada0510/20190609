@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8" />
+    <title>demo</title>
+</head>
+<body>
+<p>
+    <label><b>カジノゲームへようこそ！</b></label>
+    <label>あなたの名前を入力してください</label>
+    <!--<label th:text="${msg}">前回のメッセージ</label>-->
+</p>
+<form action="#" th:action="@{/confirm}" method="GET">
+    <p>
+        <label for="message">名前を入力👉 ：</label>
+        <input id="message" name="msg" type="text" size="40" />
+    </p>
+    <p>
+        <input type="submit" value="送信" />
+    </p>
+</form>
+</body>
+</html>

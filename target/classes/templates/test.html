@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8" />
+    <title>demo2</title>
+</head>
+<body bgcolor="black">
+<center><font color="gold" face="Comic Sans MS" size="7"><b>Welcome to Casino!!</b></font></center>
+<center><font color="white" face="Comic Sans MS" size="5"><b>あなたの現在の所持金：¥20000</b></font></center>
+<form action="#" th:action="@{/con}" method="GET">
+    <label><font color="white" face="Comic Sans MS" size="4">掛け金を入力：</font></label>
+    <input id="bet" name="bet" type="text" size="40">
+        <!--<input type="submit" value="決定！">-->
+</form>
+<!--<form action="#" th:action="@{/bet}" method="GET">
+    <p>
+        <label for="bet"><font color="white" face="Comic Sans MS" size="4">掛け金を入力：</font></label>
+        <input id="bet" name="bet" type="text" size="30">
+    </p>
+        <label for="bet"><font color="white" face="Comic Sans MS" size="4">表または裏を選択：</font></label>
+        <input type="radio" name="gender" value="male"><font color="skyblue" face="Comic Sans MS" size="4"><b>表</b></font>
+        <input type="radio" name="gender" value="female"><font color="orange" face="Comic Sans MS" size="4"><b>裏</b></font>
+    <p>
+        <input type="submit" value="決定！！">
+    </p>
+</form>-->
+</body>
+</html>
