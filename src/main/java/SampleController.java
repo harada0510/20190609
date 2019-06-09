@@ -11,8 +11,7 @@ public class SampleController {
         return "index";
     }
     @RequestMapping("/confirm")
-    public String confirm(@ModelAttribute("msg") String arg) {
-        System.out.println("入力された名前:" + arg);
+    public String confirm() {
         return "return";
     }
     /*@RequestMapping("/start")

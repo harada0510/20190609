@@ -1,18 +1,20 @@
+
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="utf-8" />
-    <title>demo</title>
+    <title>キャンセル完了画面</title>
 </head>
 <body>
 <p>
-    <label><b>カジノゲームへようこそ！</b></label>
-    <label>あなたの名前を入力してください</label>
-    <!--<label th:text="${msg}">前回のメッセージ</label>-->
+    <label><b>キャンセル完了画面</b></label>
+
+    <!--<label th:text="${msg}">-->
+
 </p>
 <form action="#" th:action="@{/confirm}" method="GET">
     <p>
-        <label for="message">名前を入力👉 ：</label>
+        <label for="message">何か意見等あれば入力してください</label>
         <input id="message" name="msg" type="text" size="40" />
     </p>
     <p>
